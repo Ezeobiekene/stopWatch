@@ -1,0 +1,131 @@
+html{
+ font-size: 62.5%;
+}
+.timerBtn{
+    width: 8rem;
+    height: 3rem;
+    border: 0.3rem solid rgb(236, 132, 150);
+    border-radius: 1.2rem;
+    background-color: rgb(236, 132, 150);
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#timeDisplay{
+    font-size: 10rem;
+    color: rgb(236, 132, 150);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#timeContainer{
+    width: 45%;
+    height: 15rem;
+    margin: 20% auto;
+    text-align: center;
+    border: 0.3rem solid rgb(236, 132, 150);
+    border-radius: 2.5rem;
+    background-color: aquamarine;
+}
+body{
+    background-color: aquamarine;
+}
+
+/* Large desktop */
+@media (min-width: 1201px) { 
+
+    .timerBtn{
+        text-align: center;
+        margin: 0 2.5rem;
+        width: 8rem;
+        height: 3rem;
+        border-radius: 1.2rem;
+        font-size: 1.8rem;
+       
+    }
+    
+    #timeDisplay{
+        font-size: 10rem;
+    }
+    
+    #timeContainer{
+        width: 50%;
+        height: 15rem;
+        margin: 25% auto;
+        text-align: center;
+        border-radius: 2.5rem;
+    }
+    
+ }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1200px) { 
+    .timerBtn{
+        text-align: center;
+        margin: 1rem 2.5rem;
+        width: 8rem;
+        height: 3rem;
+        border-radius: 1.2rem;
+        font-size: 1rem;
+    }
+    
+    #timeDisplay{
+        font-size: 7rem;
+    }
+    
+    #timeContainer{
+        width: 50%;
+        height: 15rem;
+        margin: 30% auto;
+        text-align: center;
+        border-radius: 2.5rem;
+    }
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    .timerBtn{
+        text-align: center;
+        margin: 0 1.5rem;
+        width: 4rem;
+        height: 2.5rem;
+        border-radius: 1.2rem;
+        font-size: 0.8rem;
+    }
+    
+    #timeDisplay{
+        font-size: 5rem;
+    }
+    
+    #timeContainer{
+        width: 80%;
+        height: 8.5rem;
+        margin: 30% auto;
+        text-align: center;
+        border-radius: 2.5rem;
+    }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    .timerBtn{
+        text-align: center;
+        margin: 0 2rem;
+        width: 3.5rem;
+        height: 2rem;
+        border-radius: 1.2rem;
+        font-size: 0.75rem;
+    }
+    
+    #timeDisplay{
+        font-size: 4rem;
+    }
+    
+    #timeContainer{
+        width: 90%;
+        height: 8rem;
+        margin: 45% auto;
+        text-align: center;
+        border-radius: 2.5rem;
+    }
+}
